@@ -17,7 +17,8 @@ Alternatively, download the CSS file from the repo.
 
 ## Features
 
-* Probably smaller than the CSS you're currently using
+* Probably smaller than the CSS you're currently using (under 200 lines excluding comments)
+* No need to minify
 * Configurable with variables (fonts, colors easily changed)
 * Responsive sidebar with `<aside>` -element.
 * Responsive navbar (with logo placement) by just writing
