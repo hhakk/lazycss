@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazyCSS demo</title>
+    <link rel="stylesheet" href="lazy.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">LazyCSS</a></li>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>LazyCSS Demo</h1>
+      <h1>Heading 1</h1>
+      <p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h2>Heading 2</h2>
+      <p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h3>Heading 3</h3>
+      <p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h4>Heading 4</h4>
+      <p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h5>Heading 5</h5>
+      <p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h6>Heading 6</h6>
+      <p>This is paragraph text. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <hr>
+      <p>This is a &lt;p&gt;aragraph element with <strong>&lt;strong&gt; text</strong>, <em>&lt;em&gt;phasized text</em>, text with <u>&lt;u&gt;nderlining</u>, text with <s>&lt;s&gt;trikethrough</s> and a <a href="#">click&lt;a&gt;ble link.</a></p>
+      <p>This is a paragraph with a <code>&lt;code&gt; element</code>.</p>
+
+      <details>
+        <summary>This is a clickable &lt;summary&gt; element.</summary>
+        <p>And some extended content wrapped in a &lt;details&gt; element.</p>
+      </details>
+
+      <h3>An unordered &lt;ul&gt; list</h3>
+      <ul>
+        <li>&lt;li&gt;st item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ul>
+
+      <h3>An ordered &lt;ol&gt; list</h3>
+      <ol>
+        <li>&lt;li&gt;st item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ol>
+
+      <h3>A definition &lt;dl&gt; list</h3>
+      <dl>
+        <dt>Defining &lt;dt&gt; element</dt>
+        <dd>And its &lt;dd&gt; definition.</dd>
+        <dt>Defining &lt;dt&gt; element</dt>
+        <dd>And its &lt;dd&gt; definition.</dd>
+        <dt>Defining &lt;dt&gt; element</dt>
+        <dd>And its &lt;dd&gt; definition.</dd>
+      </dl>
+
+      <blockquote>
+        This is a blockquote element.<br><br>-LazyCSS
+      </blockquote>
+
+      <pre><code>
+&#x3C;!DOCTYPE html&#x3E;
+&#x3C;html&#x3E;
+	&#x3C;head&#x3E;
+	&#x3C;title&#x3E;Hello World&#x3C;/title&#x3E;
+	&#x3C;/head&#x3E;
+	&#x3C;body&#x3E;
+	&#x3C;p&#x3E;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&#x3C;/p&#x3E;
+	&#x3C;/body&#x3E;
+&#x3C;/html&#x3E;</code></pre>
+
+      <table>
+        <caption>Caption</caption>
+        <thead>
+          <tr>
+            <th>Table heading</th>
+            <th>Another heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Element 1</td>
+            <td>Element 2</td>
+          </tr>
+          <tr>
+            <td>Element 1</td>
+            <td>Element 2</td>
+          </tr>
+          <tr>
+            <td>Element 1</td>
+            <td>Element 2</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <form>
+        <p><em>This is not a real form and does not submit or save any information.</em></p>
+				<label for="first-name">First name</label>
+				<input type="text" name="first_name" id="first-name">
+				<label for="last-name">Last name</label>
+				<input type="text" name="last_name" id="last-name">
+        <fieldset>
+          <legend>Gender</legend>
+          <label>
+            <input type="radio" name="gender" value="Male">
+            Male
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Female">
+            Female
+          </label>
+        </fieldset>
+				<label for="email">Email (*)</label>
+				<input type="email" name="email" required id="email">
+				<label for="phone">Phone number</label>
+				<input type="tel" name="phone" id="phone">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password">
+				<label for="country">Country</label>
+				<select id="country">
+					<option>China</option>
+					<option>India</option>
+					<option>United States</option>
+					<option>Indonesia</option>
+					<option>Brazil</option>
+				</select>
+				<label for="city">City</label>
+				<input type="text" id="city" list="city-list">
+				<datalist id="city-list">
+					<option>New York</option>
+					<option>Los Angeles</option>
+					<option>Chicago</option>
+					<option>Holiwood</option>
+					<option>Washington</option>
+				</datalist>
+				<label for="comments">Comments</label>
+				<textarea id="comments"></textarea>
+				<label>
+					<input type="checkbox" value="terms">
+					I agree to the <a>terms and conditions</a>
+				</label>
+				<button>Sign up</button>
+				<button type="reset">Reset form</button>
+				<button disabled="disabled">Disabled</button>
+      </form>
+
+      <img src="https://placekitten.com/1200/600" alt="cat">
+    </main>
+    <aside>
+      <h3>Responsive aside element</h3>
+      <img src="https://placekitten.com/1200/600" alt="cat">
+      <p>This section will be after the main content in mobile view and in the right side of the main content in desktop view.</p>
+    </aside>
+    <footer>
+      &copy; 2023 Copyright notice
+    </footer>
+  </body>
+
+</html>
