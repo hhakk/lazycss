@@ -38,12 +38,21 @@ See [LICENCE](LICENSE).
 
 ## Screenshots
 ### Mobile
+
 Before:
+
 ![Mobile view (Original)](original-mobile.png)
+
 After:
+
 ![Mobile view (LazyCSS)](lazycss-mobile.png)
+
 ### Desktop
+
 Before:
+
 ![Desktop view (Original)](original-desktop.png)
+
 After:
+
 ![Desktop view (LazyCSS)](lazycss-desktop.png)
