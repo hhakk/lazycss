@@ -7,13 +7,13 @@ Either use this in your blog or as a general extendable template.
 
 ## Installation
 
-Drop this line into your HTML file under `<head>`:
+1. Download the [lazy.css](lazy.css) file from the repo.
+Drop these lines into your HTML file under `<head>`:
 ```
-<link rel="stylesheet" href="https://raw.githubusercontent.com/hhakk/lazycss/master/lazy.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="lazy.css">
 ```
 And you're done.
-
-Alternatively, download the CSS file from the repo.
 
 This repository contains [a simple demo site](index.html) (screenshots below).
 
