@@ -15,6 +15,8 @@ And you're done.
 
 Alternatively, download the CSS file from the repo.
 
+This repository contains [a simple demo site](index.html) (screenshots below).
+
 ## Features
 
 * Probably smaller than the CSS you're currently using (under 200 lines excluding comments)
@@ -34,7 +36,7 @@ Alternatively, download the CSS file from the repo.
 
 ## License
 
-See [LICENCE](LICENSE).
+See [LICENCE](LICENCE).
 
 ## Screenshots
 ### Mobile
