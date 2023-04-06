@@ -5,18 +5,6 @@ Modern websites look the same. Navigation bar at the top, a responsive sidebar a
 
 Either use this in your blog or as a general extendable template.
 
-## Screenshots
-### Mobile
-Before:
-![Mobile view (Original)](original-mobile.png)
-After:
-![Mobile view (LazyCSS)](lazycss-mobile.png)
-### Desktop
-Before:
-![Desktop view (Original)](original-desktop.png)
-After:
-![Desktop view (LazyCSS)](lazycss-desktop.png)
-
 ## Installation
 
 Drop this line into your HTML file under `<head>`:
@@ -46,3 +34,15 @@ Alternatively, download the CSS file from the repo.
 ## License
 
 See [LICENCE](LICENSE).
+
+## Screenshots
+### Mobile
+Before:
+![Mobile view (Original)](original-mobile.png)
+After:
+![Mobile view (LazyCSS)](lazycss-mobile.png)
+### Desktop
+Before:
+![Desktop view (Original)](original-desktop.png)
+After:
+![Desktop view (LazyCSS)](lazycss-desktop.png)
